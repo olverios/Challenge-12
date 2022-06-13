@@ -157,7 +157,7 @@ function buildCharts(sample) {
       value: wfreqs,
       type: "indicator",
       mode: "gauge+number",
-      title: { text: "<b>Belly Button Whasing Frequency</b> <b></b> Scrubs per Week" },
+      title: { text: "Belly Button Whasing Frequency" },
       gauge: {
         axis: { range: [null,10], dtick: "2"},
         bar: { color: "black"},
